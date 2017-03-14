@@ -1,0 +1,7 @@
+export PATH=/opt/subversion/bin/:$PATH
+
+. .bash_profile
+svnadmin create SVNrep
+mkdir test
+touch test/test.txt
+
